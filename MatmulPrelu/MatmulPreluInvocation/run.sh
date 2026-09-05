@@ -52,7 +52,7 @@ if [[ " $RUN_MODE_LIST " != *" $RUN_MODE "* ]]; then
     exit -1
 fi
 
-VERSION_LIST="Ascend310P1 Ascend310P3 Ascend910B1 Ascend910B2 Ascend910B3 Ascend910B4"
+VERSION_LIST="Ascend310P1 Ascend310P3 Ascend910B1 Ascend910B2 Ascend910B3 Ascend910B4 Ascend910A Ascend910_9382"
 if [[ " $VERSION_LIST " != *" $SOC_VERSION "* ]]; then
     echo "ERROR: SOC_VERSION should be in [$VERSION_LIST]"
     exit -1

@@ -69,7 +69,7 @@ uint8_t *GenerateTiling(const char *socVersion)
     tilingApi.SetShape(M, N, K);
     tilingApi.SetBias(isBias);
     tilingApi.SetTraverse(MatrixTraverse::FIRSTM);
-    tilingApi.SetFixsplit(baseM, baseN, -1);
+    tilingApi.SetFixSplit(baseM, baseN, -1);
     tilingApi.SetBufferSpace(-1, -1, -1);
 
     int64_t res = tilingApi.GetTiling(tilingData);
